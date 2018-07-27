@@ -1,6 +1,6 @@
 #Dockerfile
-FROM redis/base:v0.01
-#FROM daocloud.io/peizhiluo007/redis:latest
+#FROM redis/base:v0.01
+FROM daocloud.io/peizhiluo007/salesbox-redis:latest
 MAINTAINER peizhiluo007<25159673@qq.com>
 
 #采用supervisor来管理多任务
